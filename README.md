@@ -7,6 +7,8 @@
 
 Get your Hydro Quebec electiricty data
 
+The project is influenced by [hydroqc](https://gitlab.com/hydroqc/hydroqc) package. You should use that library if you need more detailed implementation of the HQ API.
+
 ## Installation
 
 Install this library using `pip`:
