@@ -18,13 +18,15 @@ dependencies = [
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[project.optional-dependencies]
+test = ["pytest", "requests-mock"]
+
 [dependency-groups]
 dev = [
     "ipykernel>=6.29.5",
     "pytest>=8.3.4",
     "requests-mock>=1.12.1",
 ]
-test = ["pytest", "requests-mock"]
 
 [project.urls]
 Homepage = "https://github.com/lvg77/hydroq-api"
